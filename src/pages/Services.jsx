@@ -34,22 +34,22 @@ const Services = () => {
     {
       title: "Expert Guidance",
       description: "Get personalized advice from our experienced financial experts",
-      icon: <FaHandshake className="text-3xl text-blue-600" />
+      icon: <FaHandshake className="text-3xl text-yellow-600" />
     },
     {
       title: "Quick Processing",
       description: "Fast approval and disbursement of loans within 48 hours",
-      icon: <FaChartLine className="text-3xl text-blue-600" />
+      icon: <FaChartLine className="text-3xl text-yellow-600" />
     },
     {
       title: "Competitive Rates",
       description: "Enjoy the best interest rates in the market",
-      icon: <FaShieldAlt className="text-3xl text-blue-600" />
+      icon: <FaShieldAlt className="text-3xl text-yellow-600" />
     },
     {
       title: "Secure Process",
       description: "Your data is protected with bank-level security",
-      icon: <FaUsers className="text-3xl text-blue-600" />
+      icon: <FaUsers className="text-3xl text-yellow-600" />
     }
   ];
 

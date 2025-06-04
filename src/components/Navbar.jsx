@@ -13,10 +13,10 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <img src={logo} alt="PMEGP Udyami Service" className="h-12 w-auto" />
+              <img src={logo} alt="PMEGP Udyami Service" className="h-15  w-22" />
             </Link>
           </div>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
               Loans
             </Link>
             <Link
-              to="/apply"
+              to="/apply-loan"
               className="bg-red-600 text-white hover:bg-red-700 px-4 py-2 rounded-md text-sm font-medium transition duration-300"
             >
               Apply Now
