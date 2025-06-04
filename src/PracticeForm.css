@@ -1,0 +1,93 @@
+/* General Page Styling */
+body, html {
+  font-family: Arial, sans-serif;
+  background-color: #fef3c7; /* Light yellow background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the body takes full viewport height */
+  width: 40;
+  margin: 0;
+}
+
+/* Form Container */
+.form-container {
+  width: 80;
+  max-width: 500px;
+  background: #fef3c7; /* Light yellow background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(220, 38, 38, 0.1); /* Red shadow */
+  text-align: center;
+  display: flex;
+  width: 80;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh; /* Adjusts form height dynamically */
+}
+
+/* Logo */
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #b91c1c; /* Red color */
+}
+
+/* Input Fields */
+.input-group {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #b91c1c; /* Red color */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #fbbf24; /* Yellow border */
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #b91c1c; /* Red border on focus */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1); /* Red shadow */
+}
+
+/* Error Messages */
+.error-message {
+  color: #b91c1c; /* Red color */
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.2);
+}
